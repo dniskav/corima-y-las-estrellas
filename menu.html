@@ -1,0 +1,43 @@
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<body onLoad="MM_preloadImages('images/btn-rbl-mit.jpg','images/btn-rbl-aniv.jpg','images/btn-rbl-apol.jpg','images/btn-rbl-anota.jpg','images/btn-rbl-astron.jpg','images/btn-rbl-ninos.jpg','images/btn-rbl-fotos.jpg','images/btn-rbl-xinox.jpg')">
+
+<table border="0" align="left" cellpadding="0" cellspacing="0">
+  <!--DWLayoutTable-->
+  <tr>
+    <td><a href="mit/mitologia.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('boton','','images/btn-rbl-mit.jpg',1)"><img src="images/btu-opc-mit.jpg" alt="Mitologia y Leyendas" name="boton" width="112" height="40" border="0"></a></td>
+    <td><a href="aniv.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('aniversarios','','images/btn-rbl-aniv.jpg',1)"><img src="images/btu-opc-aniv.jpg" alt="Aniversarios y Bellas Fechas" name="aniversarios" width="112" height="40" border="0"></a></td>
+    <td><a href="apol.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('apologias','','images/btn-rbl-apol.jpg',1)"><img src="images/btu-opc-apol.jpg" alt="Apologias" name="apologias" width="112" height="40" border="0" id="apologias"></a></td>
+    <td><a href="astronotas.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('astronotas','','images/btn-rbl-anota.jpg',1)"><img src="images/btu-opc-anota.jpg" alt="Astronotas y Colaboraciones" name="astronotas" width="112" height="40" border="0"></a></td>
+    <td><a href="astronomos.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('astronomos','','images/btn-rbl-astron.jpg',1)"><img src="images/btu-opc-astron.jpg" alt="Los ni&ntilde;os y la Astronom&iacute;a" name="astronomos" width="112" height="40" border="0"></a></td>
+    <td><a href="ninos/ninos.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Astro Ni&ntilde;os','','images/btn-rbl-ninos.jpg',1)"><img src="images/btu-opc-ninos.jpg" alt="Astro Ni&ntilde;os" name="Astro Ni&ntilde;os" width="112" height="40" border="0"></a><a href="ninos/ninos.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('astrorisas','','images/btn-rbl-ninos.jpg',1)"></a></td>
+    <td><a href="fotos.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('fotos','','images/btn-rbl-fotos.jpg',1)"><img src="images/btu-opc-fotos.jpg" alt="Astro Fotos" name="fotos" width="112" height="40" border="0"></a><a href="xinox/main.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('xinox','','images/btn-rbl-xinox.jpg',1)"><img src="images/btu-opc-xinox.jpg" alt="Xinox" name="xinox" width="112" height="40" border="0"></a></td>
+    <td><!--DWLayoutEmptyCell-->&nbsp;</td>
+    <td><!--DWLayoutEmptyCell-->&nbsp;</td>
+    <td valign="top"><!--DWLayoutEmptyCell-->&nbsp;</td>
+  </tr>
+</table>

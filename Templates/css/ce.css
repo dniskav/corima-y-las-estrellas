@@ -1,0 +1,161 @@
+h2 {
+	font-family: "Bookman Old Style";
+	color: #FFFF00;
+	font-weight: normal;
+}
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	color: #0099FF;
+	font-size: x-large;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: medium;
+}
+#main {
+	overflow: visible;
+	width: 889px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#banner {
+
+}
+body {
+	background-image: url(../../images/starsbkg.gif);
+	margin: 0px;
+	padding: 0px;
+}
+#img {
+	margin: 0px;
+	padding: 0px;
+}
+#menu {
+	float: left;
+	width: 131px;
+}
+#pie {
+	background-color: #DB2C00;
+	clear: both;
+	overflow: visible;
+	margin-bottom: 5px;
+	height: 2em;
+}
+#menusup {
+}
+
+#menusup ul{
+	display: inline;
+
+
+}
+
+#menusup a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	background-image: url(../../images/btu-opc.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #FFCC00;
+	text-decoration: none;
+	display: block;
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 7px;
+	font-weight: bold;
+}
+#menusup li {
+
+
+}
+#menusup a:hover {
+	background-image: url(../../images/btn-rbl.jpg);
+}
+#contenido {
+	margin-bottom: 5px;
+	margin-left: 125px;
+	min-height: 400px;
+	height: auto !important;
+	height: 400px;
+	border: thin solid #660000;
+	padding: 3px;
+}
+.bordenegro {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.bordepro {
+	border: thin solid #FF0000;
+	background-color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 115px;
+}
+.menus {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	border: #FF0000;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #FFFF00;
+	text-align: center;
+	background-image: url(../../images/bkg_tit_tbl_pq.gif);
+	height: 13px;
+}
+.descripcion {
+	FONT-SIZE: 10px;
+	FONT-FAMILY: VERdana;
+	color: #FFFF99;
+	vertical-align: top;
+}
+#titulo {
+	margin-left: 115px;
+}
+#titIzq {
+	float: left;
+}
+#titDr {
+	float: right;
+}
+.titulofon {
+	background-image: url(../../images/stars2_04.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+}
+#infomail {
+	float: left;
+	padding-top: 0.5em;
+}
+#iplocator {
+	margin-left: 125px;
+	text-align: center;
+}
+#contenido p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFCC;
+	font-size: 90%;
+}
+.titulofon h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	font-size: large;
+}
+#contenido a, #menu a, #pie a{
+	text-decoration: none;
+	color: #0099FF;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	font-weight: bold;
+}
+#contenido table {
+	font-size: 80%;
+	color: #00CCFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Tpar {
+	background-color: #333333;
+}
+.Tinpar {
+	background-color: #666666;
+}
